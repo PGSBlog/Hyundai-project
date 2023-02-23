@@ -76,7 +76,7 @@ Terminal Command
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install v4l-utils and then sudo modprobe bcm2835-v4l2
 ```
-4. reboot and reconnect via SSH
+> reboot and reconnect via SSH
 
 >test that the camera now works
 
@@ -92,7 +92,7 @@ v4l2-ctl --stream-mmap=3 --stream-count=1 --stream-to=somefile.jpg
 ```
 >if the camera doesn't work at this point, you can try the following workarounds:
 
-5. Ensure your user has access to the camera device
+4. Ensure your user has access to the camera device
 ```
 sudo usermod -aG video $USER
 sudo chmod 777 /dev/vchiq
@@ -103,21 +103,20 @@ sudo curl -L --output /usr/bin/rpi-update https://raw.githubusercontent.com/Hexx
 sudo rpi-update
 ```
 
-6. then reboot
+> then reboot
 
-7. After verifying that the camera works fine, follow the instructions from this thread:
+5. After verifying that the camera works fine, follow the instructions from this thread:
 
-8. Install additional packages for camera on both RPI and device you'll be running rviz from (a.k.a PC)
+6. Install additional packages for camera on both RPI and device you'll be running rviz from (a.k.a PC)
 ```
 sudo apt install ros-foxy-image-tools
 sudo apt install ros-foxy-usb-cam
 sudo apt install ros-foxy-compressed-image-transport
 ```
 
-9. apply changes from this PR to files in ~/turtlebot3_ws/src and then rebuild by running colcon build inside ~/turtlebot_ws
+7. apply changes from this PR to files in ~/turtlebot3_ws/src and then rebuild by running colcon build inside ~/turtlebot_ws
 
-10. follow the Quickstart guide from Bringup onwards
+8. [위 내용은 커뮤니티 댓글에 작성되어 있다.](https://github.com/ROBOTIS-GIT/turtlebot3/issues/863)
 
 # OpenCV YOLO object detection with PiCamera and ROS2 
-#내가 해봐야할 일
-: https://robofoundry.medium.com/opencv-yolo-object-detection-with-picamera-and-ros2-629d52cfec6
+>[다음에 해야할 일](https://robofoundry.medium.com/opencv-yolo-object-detection-with-picamera-and-ros2-629d52cfec6)
