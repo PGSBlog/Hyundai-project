@@ -5,7 +5,7 @@
 	<img src="https://img.shields.io/badge/Ubuntu Server 20.04-1572B6?style=flat&logo=CSS3&logoColor=white" />
 </div> 
 
-# 개발환경
+# Develop Configuration
 Ubuntu-Server（20.04）　#RPI4 #gcc 9.4.0 #ROS2 Foxy #V2.1 Camera
 
 # RPI4에 Ubuntu-Server설치
@@ -52,7 +52,7 @@ v4l2_camera는 ROS1-Noetic를 지원하지 않는다. 그래서 ROS2로 설치�
 # RPI4-V2.1 Camera Test
 
 Here is the step-by-step guide for those who'll face the same problem:
-
+---
 0. make sure your camera is plugged into a camera slot, not the display slot on RPI! (took me a while to notice it)
 1. burn Ubuntu Server 20.04 arm 64bit image onto SD card — the image provided on the Turtlebot3 Foxy quickstart guide didn't work for me
 2. connect RPI4 to display and keyboard and run through the initial setup:
