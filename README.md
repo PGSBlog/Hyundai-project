@@ -78,6 +78,7 @@ sudo apt-get install v4l-utils and then sudo modprobe bcm2835-v4l2
 ```
 > reboot and reconnect via SSH
 
+
 >test that the camera now works
 
 ```
