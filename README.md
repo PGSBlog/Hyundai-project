@@ -26,7 +26,8 @@
 #==> 하지만, ROS2로 연결할거라서 다른 기본적인 세팅으로 카메라를 연결시켰다.
 #라즈베리파이4를 원격접속하여 /boot/config.txt를 $ source nano config.txt 해서 를 추가 한다.
 
-<h3>ROS1 Noetic설치</h3>
-#
-<h3>ROS2 foxy설치</h3>
-#(https://velog.io/@ekdh7456/)
+<h3>ROS1-Noetic설치</h3>
+#ROS1-Noetic설치(https://velog.io/@deep-of-machine/ROS-ROS1-%EC%84%A4%EC%B9%98-Ubuntu20.04-ROS-Noetic)
+
+<h3>ROS2-foxy설치</h3>
+#ROS2-Foxy설치(https://velog.io/@ekdh7456/)
