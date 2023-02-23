@@ -18,10 +18,15 @@
 #1. 와이파이 설정
 #2. ssh 세팅
 #구글링(https://pinkwink.kr/1352)，유튜브(https://youtu.be/ah4TfDcr28I)를 보고 따라하면 된다．
-#WIFI세팅()
+#WIFI 세팅, 네트워크 세팅(https://velog.io/@ekdh7456/)
 
 <h3>V2.1 Camera연결</h3>
 
 #Ubuntu-Server는 기본적으로 raspi-config를 지원하지 않는다. V2.1 Camera를 사용하기위해 raspi-config 세팅을 해줘야한다.
 #==> 하지만, ROS2로 연결할거라서 다른 기본적인 세팅으로 카메라를 연결시켰다.
+#라즈베리파이4를 원격접속하여 /boot/config.txt를 $ source nano config.txt 해서 를 추가 한다.
+
+<h3>ROS1 Noetic설치</h3>
 #
+<h3>ROS2 foxy설치</h3>
+#https://velog.io/@ekdh7456/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4-%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%84%9C%EB%B2%84%EC%97%90-ROS2-foxy-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
