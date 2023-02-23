@@ -112,7 +112,7 @@ sudo rpi-update
 
 # Terminal Command
 
-'''
+'''python
 sudo apt install ros-foxy-image-tools
 sudo apt install ros-foxy-usb-cam
 sudo apt install ros-foxy-compressed-image-transport
