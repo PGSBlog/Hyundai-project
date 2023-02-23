@@ -57,17 +57,17 @@ Here is the step-by-step guide for those who'll face the same problem:
 1. burn Ubuntu Server 20.04 arm 64bit image onto SD card — the image provided on the Turtlebot3 Foxy quickstart guide didn't work for me
 2. connect RPI4 to display and keyboard and run through the initial setup:
 
-set ubuntu user password (default password is ubuntu and it asks you to reset password on first login)
-setup networking in /etc/netplan/50-cloud-init.yaml, then run sudo netplan apply. In my case, I've set up dhcp for WiFi and static IP for ethernet to be able to connect to the Turtlebot3 from my laptop.
+- set ubuntu user password (default password is ubuntu and it asks you to reset password on first login)
+- setup networking in /etc/netplan/50-cloud-init.yaml, then run sudo netplan apply. In my case, I've set up dhcp for WiFi and static IP for ethernet to be able to connect to the Turtlebot3 from my laptop.
 
 3.make changes to /boot/firmware/config.txt by adding 2 lines at the end
 
-#Config.txt Setting
+Config.txt Setting
 
 start_x=1
 gpu_mem=128
 
-# Terminal Command
+Terminal Command
 
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install v4l-utils and then sudo modprobe bcm2835-v4l2
@@ -76,14 +76,14 @@ sudo apt-get install v4l-utils and then sudo modprobe bcm2835-v4l2
 
 <h3>test that the camera now works:</h3>
 
-# Terminal Command
+Terminal Command
 ls -l /dev | grep video 
 
-# should show /dev/video0
+should show /dev/video0
 
 <h3>take a picture</h3>
 
-# Terminal Command
+Terminal Command
 
 v4l2-ctl --set-fmt-video=width=2592,height=1944,pixelformat=3
 v4l2-ctl --stream-mmap=3 --stream-count=1 --stream-to=somefile.jpg
@@ -92,14 +92,14 @@ v4l2-ctl --stream-mmap=3 --stream-count=1 --stream-to=somefile.jpg
 
 5. Ensure your user has access to the camera device
 
-# Terminal Command
+Terminal Command
 
 sudo usermod -aG video $USER
 sudo chmod 777 /dev/vchiq
 
-# Update your RPI firmware
+Update your RPI firmware
 
-# Terminal Command
+Terminal Command
 
 sudo curl -L --output /usr/bin/rpi-update https://raw.githubusercontent.com/Hexxeh/rpi-update/master/rpi-update && sudo chmod +x /usr/bin/rpi-update
 sudo rpi-update
@@ -110,7 +110,7 @@ sudo rpi-update
 
 8. Install additional packages for camera on both RPI and device you'll be running rviz from (a.k.a PC)
 
-# Terminal Command
+Terminal Command
 
 sudo apt install ros-foxy-image-tools
 sudo apt install ros-foxy-usb-cam
