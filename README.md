@@ -6,10 +6,14 @@
 </div> 
 
 # Develop Configuration
-Ubuntu-Server（20.04）　#RPI4 #gcc 9.4.0 #ROS2 Foxy #V2.1 Camera
+Ubuntu-Server（20.04）　
+RPI4 #gcc 9.4.0 
+ROS2 Foxy 
+V2.1 Camera
 
 # RPI4에 Ubuntu-Server설치
 오픈소스를 사용하기위해 Cuda, Cudnn와 연동되는 Ubuntu 20.04를 설치하려고 한다.
+
 RPI용 Ubuntu-Server(20.04)는 [우분투 공식사이트](https://ubuntu.com/#download)에 없어서, [라즈베리파이 이미저](https://www.raspberrypi.com/software/)로 Ubuntu-Server(20.04)를 설치했다.
 
 # Ubuntu-Server(20.04)세팅
@@ -34,6 +38,7 @@ gpu_mem=128
 
 # ROS1과 ROS2차이
 ROS1 = Python2.7 / Noetic(last support)
+
 ROS1 = Python3 higher / Foxy higher 
 
 # ROS1-Noetic설치
@@ -49,10 +54,11 @@ ROS1 = Python3 higher / Foxy higher
 
 # RPI4-V2.1 Camera Test
 
-Here is the step-by-step guide for those who'll face the same problem:
----
+>Here is the step-by-step guide for those who'll face the same problem:
 0. make sure your camera is plugged into a camera slot, not the display slot on RPI! (took me a while to notice it)
+
 1. burn Ubuntu Server 20.04 arm 64bit image onto SD card — the image provided on the Turtlebot3 Foxy quickstart guide didn't work for me
+
 2. connect RPI4 to display and keyboard and run through the initial setup:
 
 - set ubuntu user password (default password is ubuntu and it asks you to reset password on first login)
