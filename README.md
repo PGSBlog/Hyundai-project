@@ -30,4 +30,4 @@
 #ROS1-Noetic설치(https://velog.io/@deep-of-machine/ROS-ROS1-%EC%84%A4%EC%B9%98-Ubuntu20.04-ROS-Noetic)
 
 <h3>ROS2-foxy설치</h3>
-#ROS2-Foxy설치(https://velog.io/@dbdb_dev/ROS2-ROS2-Foxy-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%82%AD%EC%A0%9C)
+#ROS2-Foxy설치/ROS2 개발 tools설치/ROS2 환경 설정 및 단축키 관리(https://velog.io/@dbdb_dev/ROS2-ROS2-Foxy-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%82%AD%EC%A0%9C)
