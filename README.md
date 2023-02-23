@@ -4,6 +4,8 @@
 	<img src="https://img.shields.io/badge/RPI4-E34F26?style=flat&logo=HTML5&logoColor=white" />
 	<img src="https://img.shields.io/badge/Ubuntu Server 20.04-1572B6?style=flat&logo=CSS3&logoColor=white" />
 </div> 
+# 꼭 읽기
+필자는 필자가 검색하여 방법론을 직접 사용해보고 테스트 성공한 내용들만 작성했습니다.
 
 # Develop Configuration
 Ubuntu-Server（20.04）　
