@@ -16,9 +16,12 @@
 
 <h3>Ubuntu-Server(20.04)세팅</h3>
 #1.　와이파이　설정
-＃2.　ssh　세팅
-＃구글링（ https://pinkwink.kr/1352 ），유튜브（　https://youtu.be/ah4TfDcr28I　）를　보고　따라하면　된다．
+#2.　ssh　세팅
+#구글링（ https://pinkwink.kr/1352 ），유튜브（　https://youtu.be/ah4TfDcr28I　）를　보고　따라하면　된다．
+#WIFI     
+
 <h3>V2.1 Camera연결</h3>
 
 #Ubuntu-Server는 기본적으로 raspi-config를 지원하지 않는다. V2.1 Camera를 사용하기위해 raspi-config 세팅을 해줘야한다.
 #==> 하지만, ROS2로　연결할거라서　다른 기본적인 세팅으로 카메라를 연결시켰다.
+#
