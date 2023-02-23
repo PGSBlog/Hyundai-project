@@ -26,6 +26,12 @@ Ubuntu-Server는 기본적으로 raspi-config를 지원하지 않는다. V2.1 Ca
 
 라즈베리파이4를 원격접속하여 /boot/config.txt를 $ source nano config.txt 해서 를 추가 한다.
 
+>Config.txt Setting
+```
+start_x=1
+gpu_mem=128
+```
+
 # ROS1과 ROS2차이
 ROS1 = Python2.7 / Noetic(last support)
 ROS1 = Python3 higher / Foxy higher 
@@ -54,7 +60,7 @@ Here is the step-by-step guide for those who'll face the same problem:
 
 3.make changes to /boot/firmware/config.txt by adding 2 lines at the end
 
->>Config.txt Setting
+>Config.txt Setting
 ```
 start_x=1
 gpu_mem=128
