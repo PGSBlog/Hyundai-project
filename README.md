@@ -5,4 +5,4 @@
 	<img src="https://img.shields.io/badge/Ubuntu Server 20.04-1572B6?style=flat&logo=CSS3&logoColor=white" />
 </div> 
 
- <h3>개발 환경</h3>
+ <h3>개발환경</h3>
