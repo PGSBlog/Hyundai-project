@@ -50,7 +50,7 @@ ROS1 = Python3 higher / Foxy higher
 # ROS2-v4l2_camera 세팅
 [v4l2_camera](https://index.ros.org/r/v4l2_camera/#foxy)는 ROS1-Noetic를 지원하지 않는다. 그래서 ROS2로 설치하여 진행했다.
 
-# ROS2-v4l2_camera [GIt-Lab](https://gitlab.com/boldhearts/ros2_v4l2_camera) 테스트
+# ROS2-v4l2_camera [Git-Lab](https://gitlab.com/boldhearts/ros2_v4l2_camera) 테스트
 
 # RPI4-V2.1 Camera Test
 
