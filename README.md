@@ -5,12 +5,10 @@
 	<img src="https://img.shields.io/badge/Ubuntu Server 20.04-1572B6?style=flat&logo=CSS3&logoColor=white" />
 </div> 
 
-<h3>개발환경</h3>
- 
- #Ubuntu-Server（20.04）　#RPI4 #gcc 9.4.0 #ROS2 Foxy #V2.1 Camera
+# 개발환경
+#Ubuntu-Server（20.04）　#RPI4 #gcc 9.4.0 #ROS2 Foxy #V2.1 Camera
 
-<h3>RPI4에 Ubuntu-Server설치</h3>
-
+# RPI4에 Ubuntu-Server설치
 #오픈소스를 사용하기위해 Cuda, Cudnn와 연동되는 Ubuntu 20.04를 설치하려고 한다.
 #RPI용 Ubuntu-Server(20.04)는 공식사이트(https://ubuntu.com/#download)에 없어서, 라즈베리파이 이미저(https://www.raspberrypi.com/software/)로 Ubuntu-Server(20.04)를 설치했다.
 
