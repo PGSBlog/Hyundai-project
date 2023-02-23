@@ -11,7 +11,7 @@
 
 <h3>RPI4에 Ubuntu-Server설치</h3>
 #오픈소스를 사용하기위해 Cuda, Cudnn와 연동되는 Ubuntu 20.04를 설치하려고 한다.
-#RPI용 Ubuntu-Server(20.04)는 공식사이트（https://ubuntu.com/#download）　에　없어서, 라즈베리　이미저(https://www.raspberrypi.com/software/)　로 Ubuntu-Server(20.04)를 설치했다.
+#RPI용 Ubuntu-Server(20.04)는 공식사이트（https://ubuntu.com/#download)에　없어서, 라즈베리　이미저(https://www.raspberrypi.com/software/)로 Ubuntu-Server(20.04)를 설치했다.
 
 <h3>V2.1 Camera연결</h3>
 
