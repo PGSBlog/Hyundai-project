@@ -62,7 +62,7 @@ Here is the step-by-step guide for those who'll face the same problem:
 
 3.make changes to /boot/firmware/config.txt by adding 2 lines at the end
 
-Config.txt Setting
+>>Config.txt Setting
 
 start_x=1
 gpu_mem=128
@@ -74,21 +74,21 @@ sudo apt-get install v4l-utils and then sudo modprobe bcm2835-v4l2
 
 4. reboot and reconnect via SSH
 
-<h3>test that the camera now works:</h3>
+>>test that the camera now works
 
 Terminal Command
 ls -l /dev | grep video 
 
 should show /dev/video0
 
-<h3>take a picture</h3>
+>>take a picture
 
 Terminal Command
 
 v4l2-ctl --set-fmt-video=width=2592,height=1944,pixelformat=3
 v4l2-ctl --stream-mmap=3 --stream-count=1 --stream-to=somefile.jpg
 
-#if the camera doesn't work at this point, you can try the following workarounds:
+--- if the camera doesn't work at this point, you can try the following workarounds:
 
 5. Ensure your user has access to the camera device
 
