@@ -122,3 +122,7 @@ sudo apt install ros-foxy-compressed-image-transport
 
 9. apply changes from this PR to files in ~/turtlebot3_ws/src and then rebuild by running colcon build inside ~/turtlebot_ws
 10. follow the Quickstart guide from Bringup onwards
+
+# OpenCV YOLO object detection with PiCamera and ROS2 
+#내가 해봐야할 일
+: https://robofoundry.medium.com/opencv-yolo-object-detection-with-picamera-and-ros2-629d52cfec6
