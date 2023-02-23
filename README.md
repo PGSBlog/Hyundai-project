@@ -7,7 +7,13 @@
 
 <h3>개발환경</h3>
  
- #Ubuntu Server 20.04 #RPI4 #gcc 9.4.0 #ROS2 Foxy #V2.1 Camera
+ #Ubuntu-Server（20.04）　#RPI4 #gcc 9.4.0 #ROS2 Foxy #V2.1 Camera
 
-<h3>raspi-config</h3>
-#기
+<h3>RPI4에 Ubuntu-Server설치</h3>
+#오픈소스를 사용하기위해 Cuda, Cudnn와 연동되는 Ubuntu 20.04를 설치하려고 한다.
+#RPI용 Ubuntu-Server(20.04)는 공식사이트（https://ubuntu.com/#downloa）에　없어서, 라즈베리　이미저(https://www.raspberrypi.com/software/)로 Ubuntu-Server(20.04)를 설치했다.
+
+<h3>V2.1 Camera연결</h3>
+
+#Ubuntu-Server는 기본적으로 raspi-config를 지원하지 않는다. V2.1 Camera를 사용하기위해 raspi-config 세팅을 해줘야한다.
+#==> 하지만 실패하여 다른 기본적인 세팅으로 카메라를 연결시켰다.
