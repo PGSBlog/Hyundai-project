@@ -110,7 +110,7 @@ sudo rpi-update
 
 8. Install additional packages for camera on both RPI and device you'll be running rviz from (a.k.a PC)
 
-Terminal Command
+# Terminal Command
 
 'sudo apt install ros-foxy-image-tools'
 'sudo apt install ros-foxy-usb-cam'
