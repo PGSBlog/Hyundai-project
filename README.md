@@ -112,9 +112,9 @@ sudo rpi-update
 
 Terminal Command
 
-'sudo apt install ros-foxy-image-tools
-sudo apt install ros-foxy-usb-cam
-sudo apt install ros-foxy-compressed-image-transport'
+'sudo apt install ros-foxy-image-tools'
+'sudo apt install ros-foxy-usb-cam'
+'sudo apt install ros-foxy-compressed-image-transport'
 
 9. apply changes from this PR to files in ~/turtlebot3_ws/src and then rebuild by running colcon build inside ~/turtlebot_ws
 10. follow the Quickstart guide from Bringup onwards
