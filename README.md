@@ -57,14 +57,18 @@
 <h3>RPI4-V2.1 Camera Test</h3>
 Here is the step-by-step guide for those who'll face the same problem:
 
-make sure your camera is plugged into a camera slot, not the display slot on RPI! (took me a while to notice it)
-burn Ubuntu Server 20.04 arm 64bit image onto SD card — the image provided on the Turtlebot3 Foxy quickstart guide didn't work for me
-connect RPI4 to display and keyboard and run through the initial setup:
+0. make sure your camera is plugged into a camera slot, not the display slot on RPI! (took me a while to notice it)
+1. burn Ubuntu Server 20.04 arm 64bit image onto SD card — the image provided on the Turtlebot3 Foxy quickstart guide didn't work for me
+2. connect RPI4 to display and keyboard and run through the initial setup:
+
 set ubuntu user password (default password is ubuntu and it asks you to reset password on first login)
 setup networking in /etc/netplan/50-cloud-init.yaml, then run sudo netplan apply. In my case, I've set up dhcp for WiFi and static IP for ethernet to be able to connect to the Turtlebot3 from my laptop.
-make changes to /boot/firmware/config.txt by adding 2 lines at the end
+
+3.make changes to /boot/firmware/config.txt by adding 2 lines at the end
+python'''
 start_x=1
 gpu_mem=128
+'''
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install v4l-utils and then sudo modprobe bcm2835-v4l2
 reboot and reconnect via SSH
