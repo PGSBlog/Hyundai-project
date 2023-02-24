@@ -52,13 +52,13 @@ ROS1 = Python3 higher / Foxy higher
 
 - 송/수신 테스트
 
-#Talker
+**Talker**
 
 ```
 $ source /opt/ros/foxy/setup.bash
 $ ros2 run demo_nodes_cpp talker
 ```
-#Listener
+**Listener**
 
 ```
 $ source /opt/ros/foxy/setup.bash
