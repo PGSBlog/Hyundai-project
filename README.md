@@ -51,18 +51,22 @@ ROS1 = Python3 higher / Foxy higher
 [ROS2-Foxy설치/ROS2 개발 tools설치/ROS2 환경 설정 및 단축키 관리](https://velog.io/@dbdb_dev/ROS2-ROS2-Foxy-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%82%AD%EC%A0%9C)
 
 - 송/수신 테스트
+**SSH**
 
+```
+ssh [username]@[user ip]
+```
 **Talker**
 
 ```
-$ source /opt/ros/foxy/setup.bash
-$ ros2 run demo_nodes_cpp talker
+source /opt/ros/foxy/setup.bash
+ros2 run demo_nodes_cpp talker
 ```
 **Listener**
 
 ```
-$ source /opt/ros/foxy/setup.bash
-$ ros2 run demo_nodes_py listener
+source /opt/ros/foxy/setup.bash
+ros2 run demo_nodes_py listener
 ```
 # ROS2-v4l2_camera 세팅
 [v4l2_camera](https://index.ros.org/r/v4l2_camera/#foxy)는 ROS1-Noetic를 지원하지 않는다. 그래서 ROS2로 설치하여 진행했다.
