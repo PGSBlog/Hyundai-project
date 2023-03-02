@@ -149,3 +149,4 @@ sudo apt install ros-foxy-compressed-image-transport
 1. [한글 키보드 설정](https://velog.io/@t1won/Ubuntu-%EC%9A%B0%EB%B6%84%ED%88%AC-%ED%95%9C%EA%B8%80-%EC%9E%85%EB%A0%A5-%EB%B0%8F-%ED%95%9C%EC%98%81%ED%82%A4-%EC%84%A4%EC%A0%95)
 2. [rpi4 포트포워팅](https://velog.io/@shawnhansh/Ubuntu-%ED%8F%AC%ED%8A%B8%ED%8F%AC%EC%9B%8C%EB%94%A9Portforwarding)
 3. [성능 테스트](https://www.codeinsideout.com/blog/pi/set-up-camera/#v4l2-h264-direct-copy-mp4)
+4. [실시간 스트리밍](https://raspberrypi.stackexchange.com/questions/23182/how-to-stream-video-from-raspberry-pi-camera-and-watch-it-live)
