@@ -150,3 +150,6 @@ sudo apt install ros-foxy-compressed-image-transport
 2. [rpi4 포트포워팅](https://velog.io/@shawnhansh/Ubuntu-%ED%8F%AC%ED%8A%B8%ED%8F%AC%EC%9B%8C%EB%94%A9Portforwarding)
 3. [성능 테스트](https://www.codeinsideout.com/blog/pi/set-up-camera/#v4l2-h264-direct-copy-mp4)
 4. [실시간 스트리밍](https://raspberrypi.stackexchange.com/questions/23182/how-to-stream-video-from-raspberry-pi-camera-and-watch-it-live)
+
+# RPI4 OpenCV Install
+1. [OpenCV](https://dailylime.kr/installing-opencv-on-raspberry-pi-4b-with-ubuntu-20-04/)
