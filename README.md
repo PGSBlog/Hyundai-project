@@ -153,3 +153,6 @@ sudo apt install ros-foxy-compressed-image-transport
 
 # RPI4 OpenCV Install
 1. [OpenCV](https://dailylime.kr/installing-opencv-on-raspberry-pi-4b-with-ubuntu-20-04/)
+
+# OpenCV Test for RPI4 OS
+1.[라즈비안으로 OpenCV](https://pytorch.org/tutorials/intermediate/realtime_rpi.html)
